@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid black; */
+    --logo-blue: #6ee2f5;
     --blue: #5D4FDC;
     --steel: #dbdeea;
     --grey: #95BBCB;
+}
+
+body {
+    background-color: var(--steel);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
