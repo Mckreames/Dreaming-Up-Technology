@@ -17,11 +17,32 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+header {
+    background-color: var(--steel) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--steel) !important;
+}
+
+nav > div{
+    background-color: var(--steel) !important;
+    color: white !important;
+
+}
+
 .hero {
     min-width: 400px;
     border: 1px solid blue;
+    background-image:url(images/brick_gif.gif);
+    background-repeat: no-repeat; 
 }
 
+section {
+    min-height: 400px;
+}
 
 .brick-sect {
 
