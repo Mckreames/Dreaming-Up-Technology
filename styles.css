@@ -34,14 +34,17 @@ nav > div{
 }
 
 .hero {
-    min-width: 400px;
+    min-height: 727px;
+    /* height: 45.5rem; */
+    /* min-height: 500%; */
     border: 1px solid blue;
     background-image:url(images/brick_gif.gif);
+    background-size: contain;
     background-repeat: no-repeat; 
 }
 
 section {
-    min-height: 400px;
+    /* min-height: 400px; */
 }
 
 .brick-sect {
