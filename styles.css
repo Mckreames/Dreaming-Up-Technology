@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    --blue: #5D4FDC;
+    --steel: #dbdeea;
+    --grey: #95BBCB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+.hero {
+    min-width: 400px;
+    border: 1px solid blue;
+}
+
+
+.brick-sect {
+
+}
+
+.brick-sect h1 {
+
+}
+
+.brick-video {
+    border: 1px solid black;
+    z-index: -1;
+}
