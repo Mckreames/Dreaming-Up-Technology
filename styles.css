@@ -14,27 +14,40 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    color: rgb(78, 78, 78);
 }
 
 header {
-    background-color: var(--steel) !important;
-    color: white !important;
+    background: transparent !important;
+    color: white;
     font-weight: bold;
 }
 
-nav {
+/* nav {
     background-color: var(--steel) !important;
 }
 
 nav > div{
     background-color: var(--steel) !important;
     color: white !important;
+    
+} */
 
+.navbar-brand {
+    width: 20%
+}
+
+.navbar-nav {
+    font-size: 30px;
+    margin-left: 4%;
+}
+
+.navbar-nav > li > a {
+    padding: 0 2% 0;
 }
 
 .logo {
-    width: 25%;
+    width: 100%;
 }
 
 .hero {
