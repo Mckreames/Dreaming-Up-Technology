@@ -33,6 +33,10 @@ nav > div{
 
 }
 
+.logo {
+    width: 25%;
+}
+
 .hero {
     min-height: 727px;
     /* height: 45.5rem; */
